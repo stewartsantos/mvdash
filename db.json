@@ -1,0 +1,52 @@
+{
+  "migracao": [
+    {
+      "id": 1,
+      "etapa": "CHECKLIST INICIAL",
+      "percentual": 10,
+      "ativo": "S",
+      "descricao": "São scripts criados pela fábrica e sao executados após a realização da migração."
+    },
+    {
+      "id": 2,
+      "etapa": "1º CICLO MIGRADOR",
+      "percentual": 10,
+      "ativo": "S",
+      "descricao": "Verificação, comparação e criação dos objetos e estruturas da base de dados do sistema, verificand todos requisitos necessários à migração. Neste primeiro ciclo são verificados todas particularidades do banco de dados do cliente, para que impactem minimamente nas próximas etapas da migração."
+    },
+    {
+      "id": 3,
+      "etapa": "2º CICLO MIGRADOR",
+      "percentual": 10,
+      "ativo": "S",
+      "descricao": "Etapa para uma dupla checagem do que foi verificado no primeiro ciclo, com intuito de reduzir o tempo de migração através de intervenções técnicas."
+    },
+    {
+      "id": 4,
+      "etapa": "GRANTS",
+      "percentual": 30,
+      "ativo": "S",
+      "descricao": "Execução de script disponibilizado pela equipe de migração, na base de dados do cliente e executado pelo mesmo, para que se tenha privilégios de execução das próximas etapas da migração."
+    },
+    {
+      "id": 5,
+      "etapa": "CARGAS E DROPS",
+      "percentual": 30,
+      "ativo": "N",
+      "descricao": "Sao os scripts criados pela fábrica que sao executados após a realizaçao da migração. É nesta fase onde os scripts de criação de todos objetos do banco acontecem efetivamente."
+    },
+    {
+      "id": 6,
+      "etapa": "PÓS MIGRAÇÃO",
+      "percentual": 10,
+      "ativo": "N",
+      "descricao": "Procedimentos de restauração dos padrões em que se encontravam os objetos, antes da migração."
+    }
+  ],
+  "empresa": [
+    {
+      "id": 1,
+      "nome": "UNIMED SOROCABA"
+    }
+  ]
+}
